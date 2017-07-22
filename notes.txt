@@ -1,5 +1,26 @@
 Google in Kotlin - Koogle
 
-Project setup
+Project setup https://trello.com/c/yyJEjrQs
 
 Install gradle and create a new project with `gradle init --type java-library`. Run Hello world class and run simple test
+
+
+Design
+
+Google does three things: collects web pages, indexes them and performs searches on the indexes. We will do the minimum to implement
+ the three core things to get a straw-man working, then iterate on what we have built.
+
+
+- Crawler
+
+The Crawler downloads web pages and for each link it finds in a web page, it download that page, and so on.
+
+
+- Indexer
+
+The Indexer takes words out of a web page and creates a link to the word and the web page it was found in, just like
+a name points to phone numbers in a contact list.
+
+
+Iteration 1 - Index one Web Page https://trello.com/c/P9iWVBl8
+
