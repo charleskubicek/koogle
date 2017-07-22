@@ -22,5 +22,13 @@ The Indexer takes words out of a web page and creates a link to the word and the
 a name points to phone numbers in a contact list.
 
 
+- Searcher
+
+The Searcher lets users type in queries then looks them up in the indexer to return results back.
+
+
 Iteration 1 - Index one Web Page https://trello.com/c/P9iWVBl8
+
+Start with a simple test, should index one web page. At the moment the Test and the code are in the same class for
+ease of making changes. The first failing test expects one word to be returned from the crawler and gets none.
 

@@ -19,6 +19,7 @@ repositories {
 
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    compile group: "org.http4k", name: "http4k-core", version: "2.11.3"
     testCompile 'junit:junit:4.12'
     testCompile 'com.natpryce:hamkrest:1.4.1.0'
 }
