@@ -1,0 +1,5 @@
+Google in Kotlin - Koogle
+
+Project setup
+
+Install gradle and create a new project with `gradle init --type java-library`. Run Hello world class and run simple test
